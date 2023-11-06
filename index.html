@@ -3,38 +3,139 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap");
+    </style>
     <link rel="stylesheet" href="styles.css" />
     <title>The Odin Project - Landing Page Project</title>
   </head>
   <body>
-    <header>
-      <div class="headerLogo">Link to logo image</div>
-
-      <nav>
-        <div class="headerNavigation">
-          <ul>
-            <li><a href="home.html">HOME</a></li>
-            <li><a href="projects.html">PROJECTS</a></li>
-            <li><a href="endoresments.html">ENDORSEMENTS</a></li>
-            <li><a href="contact.html">CONTACT</a></li>
-          </ul>
+    <div class="bodyContainer">
+      <header>
+        <div class="logoText">
+          <strong><a href="index.html">Jason Armstrong</a></strong>
         </div>
-      </nav>
-    </header>
 
-    <div class="heroArea">
-      <h1>This website is awesome</h1>
-      <p>
-        This website has some subtext that goes here under the main title. It's
-        a smaller font and the color is lower contrast.
-      </p>
-      <button>Sign Up</button>
-      <div class="heroImage">
-        <img
-          src="/images/link.jpg"
-          alt="This is where the hero image will go."
-        />
+        <nav>
+          <div class="headerNavigation">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="portfolio.html">Portfolio</a></li>
+              <li><a href="endoresments.html">Endorsements</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+      <div class="heroArea">
+        <div class="mainTitle">
+          <h1>Jason Armstrong</h1>
+          <h2><em>Front End Web Developer</em></h2>
+          <button class="contactButton">Contact Me</button>
+        </div>
+
+        <div class="heroImage">
+          <img
+            src="/images/cosmic-jason-armstrong.png"
+            alt="Cosmic Jason Armstrong"
+          />
+        </div>
       </div>
+
+      <div class="portfolioProjects">
+        <h2 class="portfolioTitle">Some recent work samples...</h2>
+        <div class="portfolioCardsRow">
+          <div class="portfolioCard">
+            <div class="portfolioSample">
+              <a
+                href="http://www.webdesignyorkshire.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="/images/portfolio-image-1.jpg" alt="Sample image"
+              /></a>
+            </div>
+            <p>Sample text about this project. Some more text.</p>
+          </div>
+          <div class="portfolioCard">
+            <div class="portfolioSample">
+              <a
+                href="http://www.webdesignyorkshire.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="/images/portfolio-image-2.jpg" alt="Sample image"
+              /></a>
+            </div>
+            <p>Sample text about this project. Some more text.</p>
+          </div>
+          <div class="portfolioCard">
+            <div class="portfolioSample">
+              <a
+                href="http://www.webdesignyorkshire.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="/images/portfolio-image-3.jpg" alt="Sample image"
+              /></a>
+            </div>
+            <p>Sample text about this project. Some more text.</p>
+          </div>
+          <div class="portfolioCard">
+            <div class="portfolioSample">
+              <a
+                href="http://www.webdesignyorkshire.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><img src="/images/portfolio-image-4.jpg" alt="Sample image"
+              /></a>
+            </div>
+            <p>Sample text about this project. Some more text.</p>
+          </div>
+        </div>
+        <p class="explainText">
+          <em
+            >* The above images are not actually from my personal portfolio. I
+            don't have one yet as I am still learning. These are actually from
+            this company:
+            <a
+              href="http://www.webdesignyorkshire.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Web Design Yorkshire.</a
+            ></em
+          >
+        </p>
+      </div>
+      <div class="endorsementSection">
+        <blockquote>
+          <em
+            >"This is an inspiring quote and endorsement from the God of Thunder
+            himself. Trust in Thor, Jason knows his stuff!"</em
+          >
+        </blockquote>
+        <div class="endorsementName">
+          <strong>- Thor, God of Thunder</strong>
+        </div>
+      </div>
+
+      <div class="contactSection">
+        <div class="callToAction">
+          <div class="contactText">
+            <h3 class="contacTitle">Yo! Hit me up!</h3>
+            <p class="contactParagraph">
+              <em
+                >Of course I don't talk like this. Just having fun with this
+                project!</em
+              >
+            </p>
+          </div>
+          <div class="buttonContainer">
+            <button class="contactButtonFooter">Contact Me</button>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <p>Copyright &copy; 2023 - The Odin Project &amp; Jason Armstrong</p>
+      </footer>
     </div>
   </body>
 </html>

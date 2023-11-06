@@ -1,0 +1,212 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: rgb(14, 14, 14);
+}
+
+.bodyContainer {
+  width: 1100px;
+  margin: auto;
+}
+
+header {
+  background-color: #1f2937;
+  display: flex;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: space-between;
+}
+
+.logoText {
+  margin: 10px 0 0 100px;
+  font-size: 18px;
+}
+
+.logoText a {
+  color: white;
+  text-decoration: none;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+  margin: 10px 100px 0 0;
+}
+
+header ul li a {
+  color: white;
+  font-size: 12px;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.heroArea {
+  display: flex;
+  background-color: #1f2937;
+  height: 400px;
+}
+
+.mainTitle {
+  position: relative;
+  margin: 100px 0 0 100px;
+}
+
+.heroArea h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.heroArea h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 100;
+  margin-bottom: 20px;
+}
+
+.contactButton {
+  color: white;
+  background-color: #3882f6;
+  border: 1px solid #fff;
+  height: 30px;
+  width: 100px;
+  border-radius: 8px;
+}
+
+.heroImage {
+  margin: 40px 0 0 100px;
+}
+
+.portfolioProjects {
+  background-color: white;
+  height: 400px;
+}
+
+.portfolioTitle {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  padding: 25px 0 25px 0;
+}
+
+.portfolioCardsRow {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.portfolioCardsRow p {
+  flex: 1;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  width: 200px;
+  padding: 0 6px 0 6px;
+}
+
+.portfolioSample {
+  border: 3px solid #3882f6;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.explainText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  margin: 40px auto 0 auto;
+  width: 600px;
+  text-align: center;
+}
+
+.endorsementSection {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  height: 220px;
+  justify-content: center;
+  align-items: center;
+}
+
+blockquote {
+  color: #1f2937;
+  font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+  font-size: 28px;
+  width: 600px;
+  text-align: left;
+}
+
+.endorsementName {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 14px;
+  text-align: right;
+  width: 590px;
+}
+
+.contactSection {
+  display: flex;
+  background-color: #fff;
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+}
+
+.callToAction {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #3882f6;
+  color: #fff;
+  width: 800px;
+  height: 100px;
+  border-radius: 6px;
+}
+
+.contactText {
+  width: 600px;
+  margin-top: 30px;
+}
+
+.contactParagraph {
+  margin-top: 6px;
+  font-size: 14px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.contactButtonFooter {
+  color: white;
+  background-color: #3882f6;
+  border: 1px solid #fff;
+  height: 30px;
+  width: 100px;
+  border-radius: 8px;
+  margin: -40px 0 0 600px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  height: 80px;
+}
