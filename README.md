@@ -6,4 +6,4 @@ The goal of this project was to recreate a landing page using HTML and CSS for T
 
 Here's the reference image we had to use to create our HTML & CSS version.
 
-![01](https://github.com/zr0dark/the-odin-project-landing-page-project/assets/1312646/95115603-90f2-4116-9255-7f1746e9ab17)
+![TOP-CSS-project-reference-image](https://github.com/zr0dark/the-odin-project-landing-page-project/assets/1312646/d6c9e5cd-04fa-4dff-ba98-d4be11a13fed)
