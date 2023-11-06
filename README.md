@@ -1,6 +1,6 @@
 # The Odin Project - Landing Page Exercise
 
-The goal of this project was to recreate a landing page using HTML and CSS for The Odin Project. We had to use a screenshot of a reference layout that we were to create from scratch. Check out my code for this page in the associated folders. I've placed a screenshot of the reference image that we were supposed to use so you cans see how close I got it. Of course I personalized it a little and had fun with it!
+The goal of this project was to recreate a landing page using HTML and CSS from a reference landing page (see both screenshots below) for The Odin Project. Check out my code for this page in the associated folders. I've placed a screenshot of the reference image that we were supposed to use below so you can see how close I got it. Of course I personalized it a little and had fun with it!
 
 ![jason-armstrong-fake-portfolio-project](https://github.com/zr0dark/the-odin-project-landing-page-project/assets/1312646/b8d3c0b1-0b03-4455-80cb-37772fb85d05)
 
